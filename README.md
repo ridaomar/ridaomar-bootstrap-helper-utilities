@@ -1,6 +1,6 @@
-**Library Name: ** ridaomar Lib
+**Library Name:** ridaomar Lib
 
-**Author: ** Rida Omar (https://ridaomar.ly)
+**Author:** Rida Omar (https://ridaomar.ly)
 
 **Description:** This library was created as a utility library for Bootstrap v4 and v5.
 
