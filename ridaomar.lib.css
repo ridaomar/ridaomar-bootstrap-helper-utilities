@@ -1,0 +1,245 @@
+/*!
+Library Name: ridaomar Lib
+Author: Rida Omar
+Author URI: https://ridaomar.ly
+Description: This library was created as a utility library for Bootstrap 5 framework.
+Version: 1.0.0
+Tags: Bootstrap 5, Bootrstap 4, Backgrounds, texts, glassmorphism, shadows, animations.
+*/
+
+
+/* ******************************************* \
+/* ---------------- (INDEX) ------------------ \
+**    1. Shadow                               **
+**    2. Labels                               **
+**    3. Images                               **
+**    4. Backgrounds                          **
+**    5. Positions                            **
+**    6. Animations                           **
+**    7. texts                                **
+**    8. borders                              **
+**    9. Custom Styles                        **
+\*--------------------------------------------*/
+/* ******************************************* \
+
+
+/*|***************************************** |*/
+/*|---------------  1. Shadow ---------------|*\
+/*|***************************************** |*/
+
+.hover-shadow:hover {
+    box-shadow: 0px 0px 25px #28272730 !important;
+}
+
+.shadow-light-sm {
+    box-shadow: 0rem 0 3rem 6px rgb(255 255 255 / 24%);
+}
+
+
+/*|***************************************** |*/
+/*|---------------  2. Labels ---------------|*\
+/*|***************************************** |*/
+
+.top-label {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    background: #fc442f;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 0 25px;
+}
+
+
+/*|***************************************** |*/
+/*|---------------  3. Images ---------------|*\
+/*|***************************************** |*/
+
+.img-zoom {
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+}
+
+.full-size-img {
+    object-fit: cover;
+}
+
+.img-zoom img {
+    transition: all 0.5s;
+}
+
+.img-zoom-container:hover img {
+    transform: scale(1.2);
+}
+
+.img-overlay-container {
+    position: relative;
+}
+
+.img-overlay-body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(254, 254, 254, 0.42);
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+.img-overlay-text {
+    position: absolute;
+    bottom: 10%;
+}
+
+.img-overlay-container:hover .img-overlay-body {
+    opacity: 1;
+}
+
+.hover-img-show-hide:hover .main-img {
+    display: none;
+}
+
+.hover-img-show-hide:hover .secondry-img {
+    display: inline !important;
+}
+
+.img-hover-colorize-container img {
+    filter: grayscale(100);
+}
+
+.img-hover-colorize-container img:hover {
+    filter: grayscale(0);
+}
+
+
+/*|***************************************** |*/
+/*|-------------  4. Backgrounds ------------|*\
+/*|***************************************** |*/
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-center {
+    background-position: center;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-black {
+    background: #000;
+}
+
+
+/*|***************************************** |*/
+/*|--------------  5. Positions -------------|*\
+/*|***************************************** |*/
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+
+/*|***************************************** |*/
+/*|-------------  6. Animations -------------|*\
+/*|***************************************** |*/
+
+.transition-medium {
+    transition: all 0.7s;
+}
+
+.transition-fast {
+    transition: all 0.4s;
+}
+
+.scale-up-hover:hover {
+    transform: scale(1.1);
+}
+
+.rotate-x-360-hover:hover {
+    transform: rotateX(360deg);
+}
+
+.rotate-y-360-hover:hover {
+    transform: rotateY(360deg);
+}
+
+
+/*|***************************************** |*/
+/*|----------------  7. texts ---------------|*\
+/*|***************************************** |*/
+
+.font-size-larger {
+    font-size: larger;
+}
+
+.text-justify {
+text-align: justify;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.text-twitter { color: #00aced; color: rgb(0, 172, 237); }
+.text-facebook { color: #3b5998; color: rgb(59, 89, 152); }
+.text-googleplus { color: #dd4b39; color: rgb(221, 75, 57); }
+.text-rss { color: #f26522; color: rgb(242, 101, 34); }
+.text-pinterest { color: #cb2027; color: rgb(203, 32, 39); }
+.text-linkedin { color: #007bb6; color: rgb(0, 123, 182); }
+.text-youtube { color: #bb0000; color: rgb(187, 0, 0); }
+.text-vimeo { color: #1ab7ea; color: rgb(26, 183, 234); }
+.text-tumblr { color: #32506d; color: rgb(50, 80, 109); }
+.text-instagram { color: #bc2a8d; color: rgb(188, 42, 141); }
+.text-flickr { color: #ff0084; color: rgb(255, 0, 132); }
+.text-dribbble { color: #ea4c89; color: rgb(234, 76, 137); }
+.text-quora { color: #a82400; color: rgb(168, 36, 0); }
+.text-foursquare { color: #0072b1; color: rgb(0, 114, 177)}
+.text-forrst { color: #5B9A68; color: rgb(91, 154, 104); }
+.text-vk { color: #45668e; color: rgb(69, 102, 142); }
+.text-wordpress { color: #21759b; color: rgb(33, 117, 155); }
+.text-stumbleupon { color: #EB4823; color: rgb(235, 72, 35); }
+.text-yahoo { color: #7B0099; color: rgb(123, 0, 153); }
+.text-blogger { color: #fb8f3d; color: rgb(251, 143, 61); }
+.text-soundcloud { color: #ff3a00; color: rgb(255, 58, 0); }
+
+
+/*|***************************************** |*/
+/*|---------------  8. borders --------------|*\
+/*|***************************************** |*/
+
+.rounded-lg {
+    border-radius: 24px;
+}
+
+
+/*|***************************************** |*/
+/*|------------  9. Custom Styles -----------|*\
+/*|***************************************** |*/
+
+.glassmorphism {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.diagonal-bottom-element {
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    height: 10vw;
+}
