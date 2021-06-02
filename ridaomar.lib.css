@@ -245,15 +245,15 @@ text-align: justify;
 /*|***************************************** |*/
 
 .rounded-lg {
-    border-radius: 24px;
+    border-radius: 24px !important;
 }
 
 .rounded-top-lg {
-    border-radius: 24px 24px 0 0;
+    border-radius: 24px 24px 0 0 !important;
 }
 
 .rounded-bottom-lg {
-    border-radius: 0 0 24px 24px;
+    border-radius: 0 0 24px 24px !important;
 }
 
 /*|***************************************** |*/
