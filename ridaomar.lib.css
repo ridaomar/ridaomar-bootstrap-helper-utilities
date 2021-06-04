@@ -189,6 +189,14 @@ Tags: Bootstrap 5, Bootrstap 4, Backgrounds, texts, glassmorphism, shadows, anim
 text-align: justify;
 }
 
+.font-weight-normal {
+    font-weight: normal !important;
+}
+
+.font-weight-lighter {
+    font-weight: lighter;
+}
+
 .font-weight-bold {
     font-weight: bold !important;
 }
