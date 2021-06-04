@@ -1,4 +1,4 @@
-**Library Name:** ridaomar Lib
+**Library Name:** Ridaomar Bootstrap Utilities
 
 **Author:** Rida Omar (https://ridaomar.ly)
 
