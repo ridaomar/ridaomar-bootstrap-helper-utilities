@@ -23,18 +23,18 @@ Option 1: HTML Including _(inside the head tag)_
 
 ```html
 <head>
-  <link rel="stylesheet" href="bootstrap-4-utilities.min.css">
+  <link rel="stylesheet" href="ridaomar-bootstrap-helper-utilities.css">
 </head>
 ```
 
 Option 2: Css Importing
 
 ```css
-@import "bootstrap-4-utilities.min.css";
+@import "ridaomar-bootstrap-helper-utilities.css";
 ```
 
 Or
 
 ```css
-@import url("bootstrap-4-utilities.min.css");
+@import url("ridaomar-bootstrap-helper-utilities.css");
 ```
