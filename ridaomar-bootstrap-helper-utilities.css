@@ -19,7 +19,8 @@ Tags: Bootstrap 5, Bootrstap 4, Backgrounds, texts, glassmorphism, shadows, anim
 **    7. texts                                **
 **    8. borders                              **
 **    9. Sizes                                **
-**    10. Custom Styles                       **
+**    10. Overflow                            **
+**    11. Custom Styles                       **
 \*--------------------------------------------*/
 /* ******************************************* \
 
@@ -297,7 +298,59 @@ Tags: Bootstrap 5, Bootrstap 4, Backgrounds, texts, glassmorphism, shadows, anim
 }
 
 /*|***************************************** |*/
-/*|------------  10. Custom Styles ----------|*\
+/*|--------------  10. Overflow -------------|*\
+/*|***************************************** |*/
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+.overflow-visible {
+    overflow: visible;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.overflow-x-scroll {
+    overflow-x: scroll;
+}
+
+.overflow-x-visible {
+    overflow-x: visible;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+
+.overflow-y-scroll {
+    overflow-y: scroll;
+}
+
+.overflow-y-visible {
+    overflow-y: visible;
+}
+
+/*|***************************************** |*/
+/*|------------  11. Custom Styles ----------|*\
 /*|***************************************** |*/
 
 .glassmorphism {
