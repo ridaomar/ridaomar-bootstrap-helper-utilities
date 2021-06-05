@@ -281,6 +281,30 @@ Tags: Bootstrap 5, Bootrstap 4, Backgrounds, texts, glassmorphism, shadows, anim
     width: 100vw;
 }
 
+.h-max-content {
+    height: max-content;
+}
+
+.w-max-content {
+    height: max-content;
+}
+
+.h-fit-content {
+    height: fit-content;
+}
+
+.w-fit-content {
+    width: fit-content;
+}
+
+.h-min-content {
+    height: min-content;
+}
+
+.w-min-content {
+    width: min-content;
+}
+
 .m-h-100 {
     min-height: 100%;
 }
