@@ -20,7 +20,8 @@ Tags: Bootstrap 5, Bootrstap 4, Backgrounds, texts, glassmorphism, shadows, anim
 **    8. borders                              **
 **    9. Sizes                                **
 **    10. Overflow                            **
-**    11. Custom Styles                       **
+**    11. Tables                              **
+**    12. Custom Styles                       **
 \*--------------------------------------------*/
 /* ******************************************* \
 
@@ -374,7 +375,16 @@ Tags: Bootstrap 5, Bootrstap 4, Backgrounds, texts, glassmorphism, shadows, anim
 }
 
 /*|***************************************** |*/
-/*|------------  11. Custom Styles ----------|*\
+/*|---------------  11. Tables --------------|*\
+/*|***************************************** |*/
+
+.table-lg th, .table-lg td {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+/*|***************************************** |*/
+/*|------------  12. Custom Styles ----------|*\
 /*|***************************************** |*/
 
 .glassmorphism {
