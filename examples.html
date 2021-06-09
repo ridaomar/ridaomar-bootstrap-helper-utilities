@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ridaomar Bootstrap Helper Utilities Examples</title>
+
+    <meta name="description" content="Ridaomar Bootstrap Helper Utilities Examples">
+    <meta name="keywords"
+        content="Bootrstap 4,Bootstrap 5,Utilities,Backgrounds,texts,glassmorphism,shadows,animations,css only">
+    <meta name="author" content="http://ridaomar.ly">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- ridaomar-bootstrap-helper-utilities -->
+    <link href="ridaomar-bootstrap-helper-utilities.css" rel="stylesheet">
+
+    <style>
+        .mock-background {
+            background-image: url('http://placeimg.com/1500/700/grayscale');
+        }
+    </style>
+
+</head>
+
+<body class="py-5 bg-success">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="card hover-shadow transition-fast glassmorphism text-light">
+                    <div class="card-body">
+                        <h2 class="mb-0">Ridaomar Bootstrap Helper Utilities Examples</h2>
+                        <a class="link-light stretched-link" href="https://github.com/ridaomar/ridaomar-bootstrap-helper-utilities"
+                            title="Go To Github Repository"
+                            target="_blank">https://github.com/ridaomar/ridaomar-bootstrap-helper-utilities</a>
+                    </div>
+                    <div class="card-footer">
+                        This library was developed by CSS3 only and created to be as a utility library for Bootstrap v4 and v5.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-12">
+
+                <!-- Animation -->
+                <div class="card mt-4 hover-shadow transition-medium">
+                    <div class="card-header">
+                        <b>Animation</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6 col-lg-3 my-3">
+                                <div class="btn btn-light hover-shadow py-2 rounded-pill w-100">Hover shadow</div>
+                            </div>
+                            <div class="col-6 col-lg-3 my-3">
+                                <div class="btn btn-light scale-up-hover transition-medium py-2 rounded-pill w-100">Scale Up</div>
+                            </div>
+                            <div class="col-6 col-lg-3 my-3">
+                                <div class="btn btn-light rotate-x-360-hover transition-medium py-2 rounded-pill w-100">Rotate X 360</div>
+                            </div>
+                            <div class="col-6 col-lg-3 my-3">
+                                <div class="btn btn-light rotate-y-360-hover transition-medium py-2 rounded-pill w-100">Rotate Y 360</div>
+                            </div>
+                            <div class="col-6 col-lg-3 my-3">
+                                <div class="btn btn-light scale-up-hover hover-shadow transition-fast py-2 rounded-pill w-100">Transition Fast</div>
+                            </div>
+                            <div class="col-6 col-lg-3 my-3">
+                                <div class="btn btn-light scale-up-hover hover-shadow transition-medium py-2 rounded-pill w-100">Transition Medium</div>
+                            </div>                               
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Labels -->
+                <div class="card mt-4 hover-shadow transition-medium">
+                    <div class="card-header">
+                        <b>Labels</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="position-relative my-5 p-3 card">
+                            <div class="top-label">Top Label</div>
+                            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                                has survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Images -->
+                <div class="card mt-4 hover-shadow transition-medium">
+                    <div class="card-header">
+                        <b>Images</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <!-- Image zoom -->
+                            <div class="col-lg-4 my-3">
+                                <div class="img-zoom-container overflow-hidden">
+                                    <img class="img-zoom transition-medium border" src="http://placeimg.com/400/250/nature" alt="Image zoom" title="Auto Generated Image By (placeimg.com)">
+                                </div>
+                                <p class="text-center"><small class="text-center">(Image zoom on hover)</small></p>
+                            </div>
+
+                            <!-- Image Overlay  -->
+                            <div class="col-lg-4 my-3">
+                                <div class="img-overlay-container">
+                                    <img class="transition-medium border img-fluid w-100" src="http://placeimg.com/400/250/nature" alt="Image Overlay" title="Auto Generated Image By (placeimg.com)">
+                                    <div class="img-overlay-body px-3 text-center">
+                                        <p class="img-overlay-text mb-0">Lorem Ipsum is simply dummy text</p>
+                                    </div>
+                                </div>
+                                <p class="text-center"><small class="text-center">(Image text overlay on hover)</small></p>
+                            </div>
+
+                            <!-- Colorized Image  -->
+                            <div class="col-lg-4 my-3">
+                                <div class="img-hover-colorize-container">
+                                    <img class="transition-medium border img-fluid w-100" src="http://placeimg.com/400/250/nature" alt="Image Overlay" title="Auto Generated Image By (placeimg.com)">
+                                </div>
+                                <p class="text-center"><small class="text-center">(Colorized image on hover)</small></p>
+                            </div>
+
+                            <!-- Main To Secondry Replacement On Hover -->
+                            <div class="col-lg-4 my-3">
+                                <div class="hover-img-show-hide">
+                                    <img class="main-img border img-fluid w-100 " src="http://placeimg.com/400/250/grayscale" alt="Image Overlay" title="Auto Generated Image By (placeimg.com)">
+                                    <img class="secondry-img border img-fluid w-100 d-none" src="http://placeimg.com/400/250/nature" alt="Image Overlay" title="Auto Generated Image By (placeimg.com)">                                    
+                                </div>
+                                <p class="text-center"><small class="text-center">(Main to secondry replacement on hover)</small></p>
+                            </div>                           
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backgrounds -->
+                <div class="card mt-4 hover-shadow transition-medium">
+                    <div class="card-header">
+                        <b>Backgrounds</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <!-- Background Cover -->
+                            <div class="col-lg-4 my-3">
+                                <div class="mock-background bg-cover border" style="padding: 8em"></div>
+                                <p class="text-center"><small class="text-center">(Background cover)</small></p>
+                            </div> 
+
+                            <!-- Centered Background -->
+                            <div class="col-lg-4 my-3">
+                                <div class="mock-background bg-center border" style="padding: 8em"></div>
+                                <p class="text-center"><small class="text-center">(Centered background)</small></p>
+                            </div>  
+                            
+                            <!-- Fixed Background -->
+                            <div class="col-lg-4 my-3">
+                                <div class="mock-background bg-fixed bg-center border" style="padding: 8em"></div>
+                                <p class="text-center"><small class="text-center">(Fixed background)</small></p>
+                            </div>
+
+                            <!-- Dark Black Background Color -->
+                            <div class="col-lg-4 my-3">
+                                <div class="bg-black bg-center border" style="padding: 8em"></div>
+                                <p class="text-center"><small class="text-center">(Dark black background color)</small></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Texts -->
+                <div class="card mt-4 hover-shadow transition-medium">
+                    <div class="card-header">
+                        <b>Texts</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="row"> 
+                            <div class="col-12">
+                                <div class="alert alert-warning mb-0">Will be documented soon! <br> <small>PS: <i>If you are in a hurry, you can check (ridaomar-bootstrap-helper-utilities.css)</i></small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Borders -->
+                <div class="card mt-4 hover-shadow transition-medium">
+                    <div class="card-header">
+                        <b>Borders</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="row"> 
+                            <div class="col-12">
+                                <div class="alert alert-warning mb-0">Will be documented soon! <br> <small>PS: <i>If you are in a hurry, you can check (ridaomar-bootstrap-helper-utilities.css)</i></small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sizes -->
+                <div class="card mt-4 hover-shadow transition-medium">
+                    <div class="card-header">
+                        <b>Sizes</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="row"> 
+                            <div class="col-12">
+                                <div class="alert alert-warning mb-0">Will be documented soon! <br> <small>PS: <i>If you are in a hurry, you can check (ridaomar-bootstrap-helper-utilities.css)</i></small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+               
+                <!-- Overflow -->
+                <div class="card mt-4 hover-shadow transition-medium">
+                    <div class="card-header">
+                        <b>Overflow</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="row"> 
+                            <div class="col-12">
+                                <div class="alert alert-warning mb-0">Will be documented soon! <br> <small>PS: <i>If you are in a hurry, you can check (ridaomar-bootstrap-helper-utilities.css)</i></small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                   
+                
+                <!-- Tables -->
+                <div class="card mt-4 hover-shadow transition-medium">
+                    <div class="card-header">
+                        <b>Tables</b>
+                    </div>
+                    <div class="card-body">
+                        <div class="row"> 
+                            <div class="col-12">
+                                <div class="alert alert-warning mb-0">Will be documented soon! <br> <small>PS: <i>If you are in a hurry, you can check (ridaomar-bootstrap-helper-utilities.css)</i></small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                   
+                
+                <!-- This comment was created on June 9 2021 at 03:00 AM | Lets see how much time do I need to finish the another stuff :p -->
+                <p class="text-light text-center mt-5">Sorry guys but I have work tomorrow morning and I have to sleep. Goodnight :D</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+</html>
