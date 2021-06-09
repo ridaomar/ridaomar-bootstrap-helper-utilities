@@ -1,6 +1,6 @@
 # Ridaomar Bootstrap Helper Utilities
 
-This library was created as a utility library for Bootstrap v4 and v5.
+This library was developed by CSS3 only and created to be as a utility library for Bootstrap v4 and v5.
 
 ### [Live Demo](https://ridaomar.github.io/ridaomar-bootstrap-helper-utilities/examples/)
 
