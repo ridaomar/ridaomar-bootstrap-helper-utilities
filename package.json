@@ -1,0 +1,38 @@
+{
+  "name": "ridaomar-bootstrap-helper-utalities",
+  "version": "2.3.0",
+  "description": "This library was developed by CSS3 only and created to be as a utility library for Bootstrap v4 and v5.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridaomar/ridaomar-bootstrap-helper-utilities.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "5",
+    "Bootrstap",
+    "4",
+    "Backgrounds",
+    "texts",
+    "glassmorphism",
+    "shadows",
+    "animations",
+    "hover",
+    "effect",
+    "css",
+    "only",
+    "css3"
+  ],
+  "author": "Ridaomar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ridaomar/ridaomar-bootstrap-helper-utilities/issues"
+  },
+  "homepage": "https://github.com/ridaomar/ridaomar-bootstrap-helper-utilities#readme"
+}
