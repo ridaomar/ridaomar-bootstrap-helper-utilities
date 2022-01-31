@@ -1,6 +1,6 @@
 {
   "name": "ridaomar-bootstrap-helper-utilities",
-  "version": "2.3.0",
+  "version": "2.5.0",
   "description": "This library was developed by CSS3 only and created to be as a utility library for Bootstrap v4 and v5.",
   "main": "index.js",
   "directories": {
